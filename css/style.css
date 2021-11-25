@@ -1,0 +1,240 @@
+/*=========================================
+
+Universal Styling 
+
+=========================================*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  padding: 16px 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  padding: 10px 0 15px;
+}
+
+img {
+  height: 300px;
+  width: 450px;
+}
+
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/*=====================================
+  
+  Nav Bar Styling 
+  
+=====================================*/
+.top-bar {
+  width: 100%;
+  padding: 8px;
+  background: #14203b;
+  color: #f4f4f4;
+  position: fixed;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+}
+
+.logo {
+  font-family: "Birthstone Bounce", serif;
+  float: left;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #326986;
+  transition: 0.3s;
+}
+
+/*=========================================
+  
+  Header Block Styling
+  
+=========================================*/
+
+/*=========================================
+  
+  Portfolio Section Styling
+  
+=========================================*/
+
+.cards {
+  height: 325px;
+  padding: 20px 0;
+}
+
+.card {
+  width: 296px;
+  height: 281px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-text1,
+.card-text2,
+.card-text3 {
+  position: relative;
+  top: -304px;
+  text-align: center;
+  padding: 14px;
+  color: #f4f4f4;
+  transition: 0.3s;
+  height: 270px;
+}
+
+.titles {
+  padding: 113px 0;
+}
+
+.card-text1:hover {
+  background: #cf1974;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: large;
+}
+
+.card-text2:hover {
+  background: #14203b;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: large;
+}
+
+.card-text3:hover {
+  background: #326986;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: large;
+}
+
+/*=========================================
+  
+  About Section Styling
+  
+=========================================*/
+
+/*=====================================
+  
+Contact Section Styling 
+  
+=====================================*/
+.contact-section {
+  display: inline-block;
+  width: 900px;
+}
+
+img {
+  width: 360px;
+  height: 425px;
+  float: left;
+  padding: 40px 40px;
+}
+
+form {
+  display: inline-block;
+}
+
+.contact-section h1 {
+  padding-top: 40px;
+}
+
+.input-section {
+  border: 1px rgb(151, 151, 151) solid;
+  padding: 10px;
+  margin: 10px 0;
+  width: 400px;
+  color: lightgray;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+.submit input {
+  background: #cf1874;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.submit input:hover {
+  background: #326986;
+  color: #f4f4f4;
+  transition: 0.3s;
+}
+
+.submit.input-section {
+  border: none;
+  padding: 0;
+}
+
+/*=========================================
+
+Footer Styling 
+
+=========================================*/
+
+footer {
+  text-align: center;
+  background: #14203b;
+  color: #f4f4f4;
+  padding: 40px 0px;
+}
+
+footer a {
+  color: white;
+  font-size: 18px;
+  margin: 0 3px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #c5c2c2;
+  transition: 0.3s;
+}
+
+footer p {
+  padding: 5px;
+}
