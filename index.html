@@ -2,10 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Web Design</title>
 
-    <title>Brittany Pigott</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Playfair+Display:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8166565b37.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <header>
+        <section class="top-bar">
+            <h1 class="logo">Brittany Pigott</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="top-header">
+            <div class="border">
+                <h1>Web Design</h1>
+                <hr>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="question">
+            <h2>What Can I Do For You?</h2>
+            <hr>
+        </section>
+
+            <!-- Web Design -->
+        <section class="cards">
+            <div class="card">
+                <img src="images/1.jpg" alt="Web Design">
+            <div class="card-text1">
+                <h2 class="titles">Web Design</h2>
+            </div>
+            </div>
+
+            <!-- Branding -->
+            <div class="card">
+                <img src="images/2.jpg" alt="Web Design">
+            <div class="card-text2">
+                <h2 class="titles">Brand Design</h2>
+            </div>
+            </div>
+
+            <!-- Print -->
+            <div class="card">
+                <img src="images/3.jpg" alt="Web Design">
+            <div class="card-text3">
+                <h2 class="titles">Print Design</h2>
+            </div>
+            </div>
+
+            <!-- Socail -->
+            <div class="card">
+                <img src="images/1.jpg" alt="Web Design">
+            <div class="card-text1">
+                <h2 class="titles">Social Media</h2>
+            </div>
+            </div>
+
+            <!-- Booklets -->
+            <div class="card">
+                <img src="images/1.jpg" alt="Web Design">
+            <div class="card-text1">
+                <h2 class="titles">Booklet Design</h2>
+            </div>
+            </div>
+
+            <!-- Misc -->
+            <div class="card">
+                <img src="images/1.jpg" alt="Web Design">
+            <div class="card-text1">
+                <h2 class="titles">Misc Design</h2>
+            </div>
+            </div>
+        </section>
+        
+        <section class="about-me">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <h1>About Me</h1>
+                <hr>
+                <p>Graphic Desinger</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi obcaecati, doloribus et sit tempora odit ducimus eum eveniet nulla ex repellendus cum aperiam ipsam? Quisquam ipsa ut voluptates deleniti quia.</p>
+                <button class="about-button">Learn More</button>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <div>
+                <h1>Lets Collab</h1>
+                <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                    <div class="first-name input-section">
+                        <label for="first-name" class="label_input_wrap"></label>
+                        <input type="text" name="first-name" id="firstname" placeholder="First Name">
+                    </div>
+
+                    <div class="last-name input-section">
+                        <label for="last-name" class="label_input_wrap"></label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+
+                    <div class="email input-section">
+                        <label for="email" class="label_input_wrap"></label>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="comments input-section">
+                        <label for="comments" class="label_input_wrap"></label>
+                        <textarea name="comments" id="comments" placeholder="Project Details" cols="55" rows="11"></textarea>
+                    </div>
+
+                    <div class="submit input-section">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+        </section>
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="website">Website By Brittany Pigott</p>
+        <span>FOLLOW ME</span>
+            <a href="https://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+    </footer>
     
 </body>
 </html>
