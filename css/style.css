@@ -28,18 +28,20 @@ h1 {
 
 h3,
 p {
-  padding: 10px 0 15px;
+  padding: 10px 0 0px;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
-  min-height: 100vh;
 }
 
 body {
   background: #14203b;
+}
+
+button {
+  margin-top: 15px;
 }
 
 /*=====================================
@@ -54,10 +56,12 @@ body {
   color: #f4f4f4;
   position: fixed;
   display: inline-block;
+  z-index: 99;
 }
 
 nav {
   float: right;
+  padding: 6px 20px 0 0;
 }
 
 .logo {
@@ -96,6 +100,7 @@ nav ul li a:hover {
   color: white;
   height: 400px;
   width: 100%;
+  padding: 40px 20px 0 20px;
 }
 
 .hero h1 {
@@ -123,7 +128,7 @@ nav ul li a:hover {
 .hero-text {
   display: inline-block;
   max-width: 345px;
-  padding: 80px 0 0 40px;
+  padding: 90px 0 0 40px;
 }
 
 .hero-image {
@@ -148,6 +153,12 @@ nav ul li a:hover {
   color: #14203b;
   text-align: center;
   padding: 40px;
+}
+
+.question hr {
+  border: none;
+  border-bottom: 1px solid #616161;
+  margin: 0.5em 40%;
 }
 
 /*=========================================
@@ -211,7 +222,7 @@ section.cards {
 =========================================*/
 .about-me {
   color: white;
-  height: 450px;
+  height: 400px;
 }
 
 .about-me-text {
@@ -299,6 +310,11 @@ textarea {
   width: 450px;
   display: inline-block;
   float: right;
+}
+
+.container-form {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /*=========================================
