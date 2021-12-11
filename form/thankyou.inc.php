@@ -1,4 +1,5 @@
 <style type="text/css">
+
 * {
   border: 0;
   margin: 0;
@@ -18,40 +19,57 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
-p {
-  padding: 10px 0 15px;
+h1 {
+  font-size: 30px;
 }
 
-img {
-  height: 300px;
-  width: 450px;
+h3,
+p {
+  padding: 10px 0 0px;
 }
 
 .container {
-  background: white;
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
-  min-height: 100vh;
 }
 
+body {
+  background: #14203b;
+}
+
+button {
+  margin-top: 15px;
+}
+
+/*=====================================
+  
+  Nav Bar Styling 
+  
+=====================================*/
 .top-bar {
   width: 100%;
   padding: 8px;
-  background: #14203b;
+  background: #cf1874;
   color: #f4f4f4;
   position: fixed;
   display: inline-block;
+  z-index: 99;
 }
 
 nav {
   float: right;
+  padding: 6px 20px 0 0;
 }
 
 .logo {
   font-family: "Birthstone Bounce", serif;
   float: left;
   padding: 10px;
+}
+
+.menu svg {
+  position: relative;
+  top: 1px;
 }
 
 nav ul li {
@@ -69,9 +87,37 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #326986;
+  color: #14203b;
   transition: 0.3s;
 }
+
+.sub-menu {
+  display: none;
+  z-index: 99;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 60px;
+  background: #cf1874;
+  width: 121px;
+  transition: 0.3s;
+}
+
+.menu-item:hover .sub-menu:hover a:hover {
+  background: #326986;
+  color: white;
+  width: 91px;
+}
+
+/*=========================================
+
+Footer Styling 
+
+=========================================*/
 
 footer {
   text-align: center;
@@ -99,36 +145,40 @@ footer p {
 
 
 <header>
-    <section class="top-bar">
-        <h1 class="logo">Brittany Pigott</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </section>
-
-    <section class="top-header">
-        <div class="border">
-            <h1>Contact</h1>
-            <hr>
-        </div>
-    </section>
-</header>
+        <section class="top-bar">
+            <h1 class="logo">Brittany Pigott</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="menu-item"><a href="#portfolio">PORTFOLIO <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="webdesign.html">WEB DESIGN</a></li>
+                            <li class="menu-item"><a href="branding.html">BRANDING</a></li>
+                            <li class="menu-item"><a href="print.html">PRINT</a></li>
+                            <li class="menu-item"><a href="booklets.html">BOOKLETS</a></li>
+                            <li class="menu-item"><a href="social.html">SOCIAL</a></li>
+                            <li class="menu-item"><a href="misc.html">MISC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#form">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
 <div class="container">
-    <h1>Thank you for your enquiry</h1>
-    <p>Thanks for your interest. We have received your message, and we will be in touch shortly.</p>
+  <h1>Thank you for your enquiry</h1>
+  <p>Thanks for your interest. We have received your message, and we will be in touch shortly.</p>
 </div>
 
+
 <footer>
-	<p class="website">Website By Brittany Pigott</p>
-	<span>FOLLOW ME</span>
-		<a href="https://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
-		<a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
-		<a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+  <p class="website">Website By Brittany Pigott</p>
+  <span>FOLLOW ME</span>
+  <a href="https://facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+  <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+  <a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
 </footer>
+
 
