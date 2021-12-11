@@ -221,15 +221,16 @@ Cards Section Styling
   width: 297px;
   height: 250px;
   display: inline-block;
+  position: relative;
 }
 
 .card-text1,
 .card-text2,
 .card-text3 {
-  position: relative;
+  position: absolute;
   width: 300px;
   height: 241px;
-  top: -254px;
+  top: 0;
   text-align: center;
   color: #f4f4f4;
   transition: 0.3s;
@@ -262,7 +263,7 @@ Cards Section Styling
 }
 
 section.cards {
-  height: 644px;
+  height: 504px;
 }
 
 /*=========================================
@@ -349,6 +350,7 @@ textarea {
   background: #326986;
   color: #f4f4f4;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .submit.input-section {
